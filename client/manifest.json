@@ -1,0 +1,18 @@
+{
+  "name": "Robosapien",
+  "description": "Control the Robo!",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": [
+        "scripts/background.js"
+      ]
+    }
+  },
+  "sockets": {
+    "tcp": {
+      "connect": "172.16.1.76:2000"
+    }
+  }
+}

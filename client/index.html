@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robosapien</title>
+    <script src="scripts/lib/angular.js"></script>
+    <script src="scripts/app.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body ng-app="app" ng-controller="AppController">
+<script type="text/ng-template" id="four-axis.html">
+    <div>
+        <div>Head</div>
+        <div>
+            <button>&uarr;</button>
+        </div>
+        <div>
+            <button>&larr;</button>
+            <button>&darr;</button>
+            <button>&rarr;</button>
+        </div>
+    </div>
+</script>
+<div class="container">
+    <div class="camera"></div>
+    <div class="controls">
+        <div class="four-axis head" ng-include="'four-axis.html'">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

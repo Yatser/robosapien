@@ -1,0 +1,41 @@
+.container {
+  display: table;
+  width: 100%;
+}
+
+.camera {
+  display: table-cell;
+  width: 320px;
+  height: 240px;
+  border: 1px solid lightgrey;
+}
+
+.controls {
+  display: table-cell;
+  height: 500px;
+  background-image: url("/images/front_view.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button {
+  width: 30px;
+}
+
+.four-axis {
+  position: absolute;
+  border: 1px solid lightgrey;
+  div {
+    text-align: center;
+    padding: 1px;
+  }
+}
+
+.head {
+  top: 27px;
+  left: 959px;
+}
+
+.vertical-range {
+  transform: rotate(90deg);
+}
